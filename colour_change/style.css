@@ -1,0 +1,25 @@
+body{
+	text-align:center;
+
+}
+div{
+	display:block;
+
+}
+button{
+	display:block;
+	margin:20px auto;
+	 
+}
+.color{
+    text-align:center;
+    width:100vw;
+    height:100vh;
+	padding:20px;
+}
+p{
+	text-decoration:bold;
+	text-align:inherit;
+	padding-top:50%;
+
+}
