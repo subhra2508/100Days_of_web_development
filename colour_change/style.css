@@ -16,10 +16,16 @@ button{
     width:100vw;
     height:100vh;
 	padding:20px;
+	border:2px solid red;
+	padding-right:5px;
+	background-position:cover;
 }
 p{
-	text-decoration:bold;
+	font-size:30px; 
 	text-align:inherit;
-	padding-top:50%;
-
+	 
+}
+h1{
+	background:linear-gradient(to top left,red,purple,orange);
+	
 }
