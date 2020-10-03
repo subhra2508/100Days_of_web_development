@@ -1,0 +1,188 @@
+<body>
+<p>before and after pseudo element</p>
+        <div>
+            <img src="Images/img5.jpeg" class="bigimg" alt="bigimg">
+        </div>-->
+        <!--
+        <h1 id="heading">i'm id heading</h1>
+        <h1 class="heading">i'm class heading</h1>
+        <p>hello world</p>-->
+
+        <!--
+        <div class="header">
+            <h1>i'm child and descendant</h1>
+        </div>
+        <div class="header">
+            <ul>
+                <li>
+                   <h1>i'm descendant</h1> 
+                </li>
+            </ul>
+        </div>-->
+
+        <!--
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur minima quibusdam 
+            voluptatem? Corporis eum expedita nulla praesentium unde, aliquam possimus, non vitae, maxime reprehenderit ipsa assumenda labore omnis.
+             Laboriosam praesentium omnis sit nobis facere? Facilis distinctio, necessitatibus quod laborum 
+             consectetur, eius itaque nihil nam, placeat pariatur id molestias rem adipisci?
+            </p>
+            <div class="header">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. A, dolorum?
+            </div>
+            <a href="#">this is a link</a>-->
+            <!--
+            <a href="http://www.google.com">General link</a>
+            <a href="#">Visited link</a>
+            <a href="https://youtube.com">Hover link</a>
+            <a href="#">Active link</a>-->
+            <h1>i'm heading</h1>
+            <p class ="absolute">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, nulla.</p>
+            <p class="responsive">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, illo!</p>
+</body>
+more into css.
+/*
+p::before{
+    content:"hello ";
+    display:block;
+    background:black;
+    font-weight:bold;
+    font-size:2rem;
+    color:red;
+}
+p::after{
+    content:"after ";
+    display:block;
+    width:50px;
+    height:50px;
+    background:green;
+}
+div{
+    width:40vw;
+    margin:100px auto;
+    border:2px solid red;
+    position: relative;
+}
+img{
+    display:block;
+    width:100%;
+    height:100%;
+}
+img::before{
+    content:"hello";
+}
+div::before{
+    content: "";
+    border:2px solid grey;
+    width:100%;
+    height:100%;
+    position: absolute;
+    box-sizing: border-box;
+    top:-40px;
+    left:-40px;
+    z-index: -2;
+    transition:all 0.5s linear;
+}
+div::after{
+    content: "";
+    background:grey;
+    width:100%;
+    height:100%;
+    position: absolute;
+    box-sizing: border-box;
+    top:-20px;
+    left:-20px;
+    z-index: -1;
+    transition:all 0.5s linear;
+}
+div:hover::after,
+div:hover::before{
+    top:0;
+    left:0;
+}
+*/
+/*
+Descendant and Child Combinators
+*/
+/*
+* {
+    color:red;
+
+}
+#heading{
+    font-size:40px;
+    text-transform: uppercase;
+    color:blue;
+}
+.heading{
+    font-size:20px;
+    text-transform: capitalize;
+    color:green;
+}
+p{
+    letter-spacing:20px;
+}
+*/
+/*
+.header h1{
+    color:green;
+    
+}
+.header > h1{/*the only one which are the child of header directly are selected*//*
+    color:purple;
+}
+div h1{
+    color:red;
+
+}
+div > h1{
+    color:blue;
+}*/
+/*first-line,first-letter*/
+/*
+P::first-line{
+    font-weight:bold;
+}
+p::first-letter{
+    font-size: 3rem;
+}*/
+/* :link :visited :hover :active */
+/*
+p:hover{
+    color:red;
+}
+.header:hover{
+    background:blue;
+    color:white;
+}
+a:hover{
+    text-decoration:none;
+}*/
+/*
+a:link{
+    color:aqua;   
+}
+a:visited{
+    color:red;
+}
+a:hover{
+    color:blue;
+}
+a:active{
+    color:green;
+}*/
+/* :root root element of the document 
+html element
+general styles
+css variables*/
+:root{
+    background:red;
+}
+h1{
+    font-size:3rem;
+}
+.absolute{
+    font-size:24px;
+}
+.responsive{
+    font-size:1.5rem;
+}
